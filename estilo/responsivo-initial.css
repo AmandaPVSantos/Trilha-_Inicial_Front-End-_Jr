@@ -5,76 +5,58 @@ body {
     box-sizing: border-box;
 }
 
-/* Ajustes para o header */
+/* Estilos para a seção 'Sobre' */
+#sobre .container {
+    padding: 20px;
+}
+
+.img-perfil img {
+    max-width: 150px;
+    height: auto;
+}
+
+.bio-title {
+    font-size: 1.5rem;
+}
+
+.bio-paragraph,
+.gosto-pessoais p,
+.motivacoes p {
+    font-size: 1rem;
+}
+
+/* Ajustes para telas menores que 768px */
 @media (max-width: 768px) {
-    .navbar-toggler-icon {
-        background-color: red !important;
-        border-radius: 20px;
-    }
-
-    .nav-container {
-        background-color: #000;
-    }
-
-    .collapse {
-        font-size: 15px;
-        background-color: #000; /* Adiciona um fundo preto ao menu colapsado */
-    }
-
-    .navbar-nav {
+    .container {
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .nav-link {
-        color: #fff !important;
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
         text-align: center;
-        padding: 10px 0;
-        width: 100%;
-        border-bottom: 1px solid #fff; /* Adiciona uma borda inferior para separar os itens do menu */
     }
 
-    .img-logo {
-        height: 50px;
-        width: 50px;
-        border-radius: 20px;
+    .box-img,
+    .bio {
+        margin: 0 auto;
+    }
+
+    .bio-title {
+        font-size: 1.25rem;
+    }
+
+    .bio-paragraph,
+    .gosto-pessoais p,
+    .motivacoes p {
+        font-size: 0.9rem;
     }
 }
 
-/* Ajustes para telas intermediárias */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .navbar-toggler-icon {
-        background-color: red !important;
-        border-radius: 20px;
+/* Ajustes para telas menores que 576px */
+@media (max-width: 576px) {
+    .bio-title {
+        font-size: 1.2rem;
     }
 
-    .nav-container {
-        background-color: #000;
-    }
-
-    .collapse {
-        font-size: 15px;
-    }
-
-    .navbar-nav {
-        flex-direction: row;
-        justify-content: center;
-        width: auto;
-    }
-
-    .nav-link {
-        color: #fff !important;
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
-        padding: 10px 15px;
-    }
-
-    .img-logo {
-        height: 50px;
-        width: 50px;
-        border-radius: 20px;
+    .bio-paragraph,
+    .gosto-pessoais p,
+    .motivacoes p {
+        font-size: 0.85rem;
     }
 }
