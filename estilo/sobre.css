@@ -13,6 +13,12 @@
     max-width: 100%;
 }
 
+.img-perfil img {
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+
 /*CONTEUDO - SOBRE*/
 .bio-content {
     margin-top: 100px;
