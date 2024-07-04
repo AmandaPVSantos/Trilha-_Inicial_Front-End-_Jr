@@ -1,0 +1,28 @@
+/*CONTEUDO IMG - IMAGEM DE PERFIL*/
+.box-img{
+    white-space: nowrap;
+    margin-top: 120px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+}
+
+.img-perfil img{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+/*CONTEUDO - SOBRE*/
+.bio-content {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+
+.bio-content h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}

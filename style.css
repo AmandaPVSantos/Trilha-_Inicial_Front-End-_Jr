@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*NAV - HEADER*/
+.navbar-toggler-icon {
+    background-color: red !important;
+    border-radius: 20px;
+}
+
+.nav-container {
+    background-color: #000;
+}
+
+.collapse  {
+    /* background-color: ; */
+    font-size: 15px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+/*LOGO*/
+.img-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+/*CONFIQ - FONTES*/
+.paragraph-primeiro {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph-segundo {
+    font-size: 12px;
+}
+
+
+
+

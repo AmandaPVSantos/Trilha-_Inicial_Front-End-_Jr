@@ -1,0 +1,84 @@
+/* Configurações gerais para garantir a responsividade */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajustes para a seção de projetos */
+@media (max-width: 768px) {
+    .centro {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .dividido {
+        margin: 10px;
+    }
+
+    .container-projetos {
+        flex-direction: column; /* Colocar os cards em coluna no mobile */
+        align-items: center; /* Centralizar os cards */
+    }
+
+    .card {
+        width: 100%; /* Fazer os cards ocuparem 100% da largura no mobile */
+        margin-left: 0;
+        margin-bottom: 20px; /* Adicionar espaçamento entre os cards */
+    }
+    
+    .card img {
+        width: 100%; /* Garantir que a imagem ocupe 100% do card */
+        height: auto;
+    }
+
+    .content-titulo-um {
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .linha-divisoria {
+        margin: 50px 10px 20px 10px;
+        width: 90%;
+    }
+}
+
+/* Ajustes para telas intermediárias */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .centro {
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+
+    .dividido {
+        margin: 10px 20px 20px 60px;
+    }
+
+    .container-projetos {
+        flex-direction: row;
+        flex-wrap: wrap; /* Permitir quebra de linha para os cards */
+        justify-content: center; /* Centralizar os cards */
+    }
+
+    .card {
+        width: 45%; /* Ajustar a largura dos cards */
+        margin: 2%;
+    }
+
+    .card img {
+        width: 100%; /* Garantir que a imagem ocupe 100% do card */
+        height: auto;
+    }
+
+    .content-titulo-um {
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .linha-divisoria {
+        margin: 75px 50px 20px 50px;
+        width: 90%;
+    }
+}
