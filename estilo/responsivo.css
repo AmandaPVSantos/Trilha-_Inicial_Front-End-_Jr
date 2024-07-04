@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden; /* Evitar o overflow horizontal */
 }
 
 /* Ajustes para a seção de projetos */
@@ -13,13 +14,15 @@ body {
     }
 
     .dividido {
-        margin:20px;
+        margin: 0 auto; /* Centralizar a margem */
+        padding: 10px;
     }
 
     .container-projetos {
         display: flex;
         flex-direction: column; /* Colocar os cards em coluna no mobile */
         align-items: center; /* Centralizar os cards */
+        padding: 0 10px; /* Adicionar padding para evitar overflow */
     }
 
     .card-body {
@@ -34,8 +37,7 @@ body {
 
     .card {
         width: 100%; /* Fazer os cards ocuparem 100% da largura no mobile */
-        margin-left: 0;
-        margin-bottom: 20px; /* Adicionar espaçamento entre os cards */
+        margin: 0 auto 20px auto; /* Adicionar espaçamento entre os cards */
     }
     
     .card img {
@@ -55,7 +57,7 @@ body {
     }
 
     .container-filho {
-        margin-left: 75px;
+        margin: 0 auto; /* Centralizar a margem */
     }
 }
 
@@ -113,9 +115,9 @@ body {
     }
 }
 
-/*ajuste para telas de tamanho 500*/
+/* Ajuste para telas de tamanho 500px */
 @media (max-width: 500px) {
     .container-filho {
-        margin-left: 190px;
+        margin: 0 auto; /* Centralizar a margem */
     }
 }
