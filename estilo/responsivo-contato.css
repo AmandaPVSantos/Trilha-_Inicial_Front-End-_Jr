@@ -1,0 +1,44 @@
+/* Estilos de responsividade para a seção de contato */
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    .linha-divisoria {
+        margin: 30px 10px;
+    }
+
+    .main {
+        margin: 50px 10px;
+    }
+
+    .divisao-content, .enviar-email {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .botao-enviar {
+        width: 100%;
+    }
+}
+
+/* Ajustes para telas menores que 576px */
+@media (max-width: 576px) {
+    .content-contato h3 {
+        font-size: 1.5rem;
+    }
+
+    .content-paragrafo-contato p {
+        font-size: 0.9rem;
+    }
+
+    .mb-3 .form-label {
+        font-size: 0.9rem;
+    }
+
+    .mb-3 .form-control {
+        font-size: 0.9rem;
+    }
+
+    .botao-enviar {
+        font-size: 1rem;
+    }
+}

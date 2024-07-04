@@ -1,0 +1,80 @@
+/* Configurações gerais para garantir a responsividade */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajustes para o header */
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: red !important;
+        border-radius: 20px;
+    }
+
+    .nav-container {
+        background-color: #000;
+    }
+
+    .collapse {
+        font-size: 15px;
+        background-color: #000; /* Adiciona um fundo preto ao menu colapsado */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        border-bottom: 1px solid #fff; /* Adiciona uma borda inferior para separar os itens do menu */
+    }
+
+    .img-logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 20px;
+    }
+}
+
+/* Ajustes para telas intermediárias */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-toggler-icon {
+        background-color: red !important;
+        border-radius: 20px;
+    }
+
+    .nav-container {
+        background-color: #000;
+    }
+
+    .collapse {
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+
+    .img-logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 20px;
+    }
+}
