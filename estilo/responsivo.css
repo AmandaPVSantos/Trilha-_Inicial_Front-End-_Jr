@@ -13,10 +13,11 @@ body {
     }
 
     .dividido {
-        margin: 10px;
+        margin:20px;
     }
 
     .container-projetos {
+        display: flex;
         flex-direction: column; /* Colocar os cards em coluna no mobile */
         align-items: center; /* Centralizar os cards */
     }
@@ -52,6 +53,10 @@ body {
         margin: 50px 10px 20px 10px;
         width: 90%;
     }
+
+    .container-filho {
+        margin-left: 75px;
+    }
 }
 
 /* Ajustes para telas intermediárias */
@@ -66,6 +71,7 @@ body {
     }
 
     .container-projetos {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap; /* Permitir quebra de linha para os cards */
         justify-content: center; /* Centralizar os cards */
@@ -100,5 +106,16 @@ body {
     .linha-divisoria {
         margin: 75px 50px 20px 50px;
         width: 90%;
+    }
+
+    .container-filho {
+        margin-left: 75px;
+    }
+}
+
+/*ajuste para telas de tamanho 500*/
+@media (max-width: 500px) {
+    .container-filho {
+        margin-left: 190px;
     }
 }

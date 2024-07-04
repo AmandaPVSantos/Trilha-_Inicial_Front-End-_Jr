@@ -9,7 +9,7 @@ body {
 /*NAV - HEADER*/
 .navbar-toggler-icon {
     background-color: red !important;
-    border-radius: 20px;
+    border-radius: 2px;
 }
 
 .nav-container {
@@ -33,17 +33,3 @@ body {
     width: 50px;
     border-radius: 20px;
 }
-
-/*CONFIQ - FONTES*/
-.paragraph-primeiro {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.paragraph-segundo {
-    font-size: 12px;
-}
-
-
-
-

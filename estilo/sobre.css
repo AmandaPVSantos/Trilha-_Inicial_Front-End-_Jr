@@ -1,3 +1,13 @@
+/*CONTEUDO ABAIXO DA IMAGEM*/
+.paragraph-primeiro {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph-segundo {
+    font-size: 28px;
+}
+
 /*CONTEUDO IMG - IMAGEM DE PERFIL*/
 .box-img{
     white-space: nowrap;
@@ -16,12 +26,12 @@
 .img-perfil img {
     height: 100px;
     width: 100px;
-    margin-left: 25px;
+    margin-left: 130px;
 }
 
 /*CONTEUDO - SOBRE*/
 .bio-content {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 120px;
@@ -32,3 +42,8 @@
     font-size: 25px;
     color: red;
 }
+
+.gosto-pessoais, .motivacoes{
+    margin-top: 50px;
+}
+
